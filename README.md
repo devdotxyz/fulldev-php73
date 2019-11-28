@@ -30,7 +30,7 @@ Add the following to your `docker-compose.yml` and adjust as needed:
       - /bin/bash
       - -c
       # if you have a start script you can replace the line below
-      - tail -f /dev/null
+      - /usr/local/sbin/php-fpm
       ## Sample start script:
       ## - /devxyz.init/start.sh
     volumes:
