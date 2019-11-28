@@ -1,5 +1,6 @@
 # PHP 7.3 Full Dev Start Container
 This is a PHP container using fpm-7.3 as a base image, configuring the following php-exts (+ deps):
+
 - pod_mysql
 - gd
 - mbstring
